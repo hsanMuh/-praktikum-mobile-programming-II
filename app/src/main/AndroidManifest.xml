@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.praktikum_mobile_programming_ii">
+
+    <application
+        android:name=".DataBase.data.db.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="praktikum_mobile_programming_ii"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Theme.praktikummobileprogrammingii">
+        <activity android:name=".UI.profile.ProfileActivity" />
+        <activity android:name=".UI.auth.LoginActivity" />
+        <activity android:name=".UI.roomData.ViewRoomDataActivity"></activity>
+        <activity android:name=".UI.roomData.AddRoomDataActivity" />
+        <activity android:name=".UI.roomData.RoomDataActivity" />
+        <activity android:name=".UI.SharedPref.SharedPrefActivity" />
+        <activity android:name=".UI.ReciverActivity" />
+        <activity android:name=".UI.WithFragmentActivity" />
+        <activity android:name=".UI.HomeActivity" />
+        <activity android:name=".UI.splash.SplashActivity"/>
+        <activity android:name=".UI.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
